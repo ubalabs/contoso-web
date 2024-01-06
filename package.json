@@ -1,13 +1,22 @@
 {
+
   "name": "contoso-web",
   "version": "0.1.0",
   "private": true,
+  "description": "Contoso Outdoors is a Next.js-based web app for use with the Contoso-Chat applicaton developed using Azure AI Studio and Prompt Flow",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+
+  "engines": {
+    "node": ">=18.17.0",
+    "npm": ">=8"
+  },
+
   "dependencies": {
     "@azure/openai": "^1.0.0-beta.7",
     "@heroicons/react": "^2.0.18",
@@ -21,6 +30,7 @@
     "react-remark": "^2.1.0",
     "remark-gemoji": "^8.0.0"
   },
+
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
