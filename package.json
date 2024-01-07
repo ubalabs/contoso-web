@@ -12,6 +12,11 @@
     "lint": "next lint"
   },
 
+  "engines": {
+    "node": "18.17.1",
+    "npm": ">=8"
+  },
+
   "dependencies": {
     "@azure/openai": "^1.0.0-beta.7",
     "@heroicons/react": "^2.0.18",
