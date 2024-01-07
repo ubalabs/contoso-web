@@ -70,6 +70,7 @@ export default async function Home({
               >
                 <div className="items-center">
                   <Image
+                    loading = 'eager' // {lazy} | {eager}
                     src={product.images[0]}
                     alt={product.name}
                     width={350}
