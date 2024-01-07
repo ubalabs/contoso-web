@@ -2,18 +2,16 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
 	"name": "Contoso Outdoor",
-
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+	
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"hostRequirements": {
 	  "cpus": 4
 	},
 
 	"waitFor": "onCreateCommand",
-	"updateContentCommand": "npm install && npm run build",
-	"postCreateCommand": "",
-	"postAttachCommand": {
-	  "server": "npm run dev"
-	},
+	"updateContentCommand": "",
+	"postCreateCommand": "bash .devcontainer/post-create-command.sh",
+	"postAttachCommand": "",
 
 	"customizations": {
 	  "codespaces": {
@@ -34,5 +32,7 @@
 		"onAutoForward": "openPreview"
 	  }
 	},
-	"forwardPorts": [3000]
+	"forwardPorts": [
+		3000
+	]
   }
