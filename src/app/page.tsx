@@ -69,13 +69,12 @@ export default async function Home({
                 }`}
               >
                 <div className="items-center">
-                  <Image             
-                    loading="eager"
+                  <Image          
                     src={product.images[0]}
                     alt={product.name}
                     width={350}
                     height={350}
-                    className="rounded-3xl"å
+                    className="rounded-3xl"
                   />
                   <div className="text-center mt-2 text-2xl font-semibold">
                     {product.name}
