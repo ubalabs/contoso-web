@@ -37,7 +37,8 @@ export const Header = async ({
           <div className="text-right text-xs text-zinc-400">{user.email}</div>
         </div>
         <div className="">
-          <Image
+          <Image                    
+            loading="eager"
             src={user.image}
             width={32}
             height={32}

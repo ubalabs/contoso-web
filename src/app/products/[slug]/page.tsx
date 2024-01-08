@@ -124,7 +124,8 @@ export default async function Page({
             i % 2 == 1 ? "flex-row-reverse" : "flex-row"
           )}
         >
-          <Image
+          <Image                              
+            loading="eager"
             src={image}
             alt={product.name}
             width={550}
