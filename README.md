@@ -1,4 +1,4 @@
-This is the Contoso Outdoors Company Website shown at Microsoft Ignite. It uses assets created by DALLE-3 and GPT-4. It is built with Next.js and Tailwind CSS.
+This is the Contoso Outdoors Company Website shown at Microsoft Ignite. It uses assets created by DALLE-3 and GPT-4. It is built with Next.js and Tailwind CSS. 
 
 ## Getting Started
 
